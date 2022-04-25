@@ -17,6 +17,12 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
+    "paths": {
+      "schematics": [
+        "dist/schematics/schematics",
+        "dist/schematics"
+      ]
+    },
     "module": "es2020",
     "lib": ["es2020", "dom"],
     "allowSyntheticDefaultImports": true
