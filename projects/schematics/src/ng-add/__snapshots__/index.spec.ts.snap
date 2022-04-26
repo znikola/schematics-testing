@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ng add @schematics/test should create the file 1`] = `"console.log('👋 from schematics')"`;
+exports[`ng add @test/schematics should create the file 1`] = `"console.log('👋 from schematics')"`;

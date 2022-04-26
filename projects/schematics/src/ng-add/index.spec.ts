@@ -12,9 +12,9 @@ import { Schema as SchematicsOptions } from './schema';
 
 const collectionPath = path.join(__dirname, '../collection.json');
 
-describe('ng add @schematics/test', () => {
+describe('ng add @test/schematics', () => {
   const schematicRunner = new SchematicTestRunner(
-    '@schematics/test',
+    '@test/schematics',
     collectionPath
   );
 

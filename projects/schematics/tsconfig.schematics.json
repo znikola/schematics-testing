@@ -22,6 +22,11 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*.ts", "**/collection.json", "**/schema.json"],
+  "include": [
+    "src/**/*.ts",
+    "**/collection.json",
+    "**/schema.json",
+    "package.json"
+  ],
   "exclude": ["src/**/*.spec.ts"]
 }

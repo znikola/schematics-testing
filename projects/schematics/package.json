@@ -1,5 +1,5 @@
 {
-  "name": "@schematics/test",
+  "name": "@test/schematics",
   "version": "0.0.1",
   "scripts": {
     "build": "../../node_modules/.bin/tsc -p tsconfig.schematics.json"
