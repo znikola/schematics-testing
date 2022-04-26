@@ -26,7 +26,8 @@
     "src/**/*.ts",
     "**/collection.json",
     "**/schema.json",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "exclude": ["src/**/*.spec.ts"]
 }

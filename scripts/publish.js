@@ -7,8 +7,13 @@ let currentVersion;
 
 function startVerdaccio() {
   console.log("Waiting for verdaccio to boot...");
+  // cleanup previous runs
   execSync("rm -rf ./scripts/storage");
-  const res = exec("verdaccio --config ./scripts/config.yaml");
+  execSync("rm -rf storage/");
+
+  const res = exec(
+    "./node_modules/verdaccio/bin/verdaccio --config ./scripts/config.yaml"
+  );
   console.log("Pointing npm to verdaccio");
   execSync(`npm config set @test:registry http://localhost:4873/`);
   execSync(`npx wait-on http://localhost:4873/`);

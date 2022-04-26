@@ -6,6 +6,7 @@
 /out-tsc
 /bazel-out
 /scripts/storage/**
+/storage/**
 
 # Node
 /node_modules
