@@ -15,6 +15,11 @@ Run `yarn build:schematics` to build the projects/schematics. The build artifact
 To locally publish the projects/schematics to verdaccio, run `./node_modules/ts-node/dist/bin.js ./scripts/publish.js`.
 The script will build and publish projects/schematics to verdaccio.
 
+## Consuming published schematics
+
+To consume the published schematics, run `ng add @test/schematics@latest --skip-confirmation`.
+After running it, you should see a log message in your terminal, and a new file created in your repo.
+
 ## Running unit tests
 
 Run `yarn test` to execute the unit tests via [Jest](https://jestjs.io).
